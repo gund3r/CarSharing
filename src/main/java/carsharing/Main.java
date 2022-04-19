@@ -26,7 +26,7 @@ public class Main {
             switch(scanner.nextInt()) {
                 case 0:
                     isWorks = false;
-                    continue;
+                    break;
                 case 1:
                     managerMenu();
                     break;
